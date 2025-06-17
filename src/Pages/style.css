@@ -1,0 +1,30 @@
+.ResponsiveGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    gap:10px 20px;
+}
+.childGrid,.childFlex{
+    border: 1px solid #444;
+    width: 200px;
+    height: 45px;
+}
+.ResponsiveFlexBox{
+    display: flex;
+    gap:10px 20px;
+    flex-wrap: wrap;
+}
+.childFlex{
+    flex: 1 1 calc(33.33% - 16px);
+}
+.Products{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
+}
+.Parent{
+     width: 800px;
+    height: 650px;
+    resize: horizontal; /* or both */
+    overflow: auto;
+    border: 2px solid #333;
+    padding: 10px;
+}

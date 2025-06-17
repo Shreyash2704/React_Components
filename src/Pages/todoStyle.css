@@ -1,0 +1,56 @@
+.TodoList{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding: 16px;
+}
+.TodoItem{
+    display: flex;
+    flex-direction: row;
+    column-gap: 4px;
+}
+.TodoItem .title{
+    margin-right: auto;
+}
+.TodoItem .editTextInput{
+    width: 100%;
+}
+.TodoItem img{
+    /* margin-left: auto; */
+}
+.input{
+    border: 1px solid #444;
+}
+.addBtn{
+    
+}
+.Container{
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+}
+.Todo-Container{
+  border: 1px solid #444;
+  /* min-width: 500px; */
+  max-width: 400px;
+  width: 100%;
+  max-height: 500px;
+  height: 100%;
+}
+.todo-header{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 10px;
+    padding: 2px;
+}
+.todo-header button{
+    margin-left: auto;
+    
+}
+.todo-header input{
+    width: 100%;
+    padding: 2px;
+}
